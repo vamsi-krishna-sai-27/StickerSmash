@@ -30,7 +30,7 @@ export default function EmojiList({onSelect,onCloseModal}:Props){
                         onSelect(item);
                         onCloseModal();
                     }}>
-                    <Image source={item} key={index} style={}/>
+                    <Image source={item} key={index} style={styles.image}/>
                 </Pressable>
             )}
         />
